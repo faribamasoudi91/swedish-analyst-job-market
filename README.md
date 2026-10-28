@@ -2,7 +2,7 @@
 
 An end-to-end analysis of **6,801 analyst job ads (2020–2024)** combined with population, unemployment, rent and income for all **290 Swedish municipalities**. The data comes from four public APIs and is cleaned in Python, modelled in SQL and presented in Power BI.
 
-![Labour market](reports/screenshots/Screenshot%202026-10-28%20092958.png)
+![Labour market](reports/screenshots/screenshot%202026-10-28%20092958.png)
 ## Key findings
 
 - **Demand peaked in 2022 and has fallen since.** Analyst ads rose from about 800 (2020) to about 1,800 (2022), then dropped to about 1,000 in 2024 (−22% vs 2023).
@@ -11,7 +11,7 @@ An end-to-end analysis of **6,801 analyst job ads (2020–2024)** combined with 
 - **Göteborg** is the second-largest market with a rent burden close to the median. **Malmö and Uppsala** have solid demand but the highest rent relative to local income.
 - **Recruitment agencies matter.** 3 of the top 10 employers are agencies, including the largest (Academic Work). Government agencies (Försäkringskassan, SCB) are also major hirers.
 
-![Jobs vs cost of living](reports/screenshots/Screenshot%202026-10-28%20093044.png)
+![Jobs vs cost of living](reports/screenshots/screenshot%202026-10-28%20093044.png)
 ## Data sources
 
 | Source | Data | Access |
@@ -32,7 +32,7 @@ An end-to-end analysis of **6,801 analyst job ads (2020–2024)** combined with 
 | 4 · Analyse | SQL (SQLite) | Six business questions: trends, rankings, regions, affordability, summary view |
 | 5 · Present | Power BI | Star schema with shared municipality and year dimensions, DAX measures |
 
-![Data and method](reports/screenshots/Screenshot%202026-10-28%20093107.png)
+![Data and method](reports/screenshots/screenshot%202026-10-28%20093107.png)
 ### Data quality issues found and handled
 
 - **Aggregates mixed with municipalities:** Kolada returned 3,656 codes (country, regions, 3,344 municipality groups); only the 290 municipalities were kept to avoid double counting.
