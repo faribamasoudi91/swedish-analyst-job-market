@@ -1,0 +1,80 @@
+{
+  "name": "Swedish Analyst Market",
+  "dataColors": [
+    "#1B2A4A",
+    "#E5A11E",
+    "#5B7DB1",
+    "#B8C4D6",
+    "#8C6A2E",
+    "#7A8FA6",
+    "#D9CDB4",
+    "#3E5C8A"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1B2A4A",
+  "tableAccent": "#E5A11E",
+  "good": "#2E8B57",
+  "neutral": "#E5A11E",
+  "bad": "#C0392B",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#1B2A4A"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#1B2A4A"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 9,
+      "color": "#5A6475"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#1B2A4A"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E6E1D6" } },
+            "radius": 12
+          }
+        ],
+        "dropShadow": [
+          { "show": false }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F4F1EA" } },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": { "solid": { "color": "#F4F1EA" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
